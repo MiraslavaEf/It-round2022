@@ -19,4 +19,5 @@ if sql.fetchone() is None:
 else:
     print('Команда уже зарегистрирована')
 
-
+for value in sql.execute("SELECT * FROM command"):
+    print(point)
